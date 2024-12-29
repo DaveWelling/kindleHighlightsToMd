@@ -1,4 +1,4 @@
-The bookmarklet will extract the highlights and notes from the most recent book in
+The bookmarklet will extract the highlights and notes from the most recent book (or whatever book is displayed) in
 https://read.amazon.com/notebook and give you a json file with them.
 
 To use the bookmarklet,
@@ -9,7 +9,7 @@ node ./tools/minify.js
 
 will create ./dist/bookmarklet.min.js.
 
-Create a bookmark in chrome, calling it whatever you want, but paste the contents of ./dist/bookmarklet.min.js. into the url.
+Create a bookmark in chrome. Call it whatever you want, but paste the contents of ./dist/bookmarklet.min.js. into the url.
 
 Open https://read.amazon.com/notebook and click the bookmark. It will give you the json.
 
